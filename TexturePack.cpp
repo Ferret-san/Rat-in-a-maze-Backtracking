@@ -1,3 +1,4 @@
+//Code uses a relative path, so solution or executable most be in the same directory level as the "images" folder
 #include "TexturePack.h"
 
 map<string, sf::Texture> TexturePack::textures;
