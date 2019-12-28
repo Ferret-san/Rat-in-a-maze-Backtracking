@@ -26,8 +26,6 @@ bool pathFinder(int** maze, int** solution, int& mazeSize)
 		}
 		
 	}
-	cout << "maze" << endl;
-	printSolution(maze, mazeSize);
 	for (int i = 0; i < mazeSize; i++)
 		solution[i] = new int[mazeSize];
 	for (int i = 0; i < mazeSize; i++)
@@ -38,9 +36,6 @@ bool pathFinder(int** maze, int** solution, int& mazeSize)
 		printf("solution doesn't exist \n");
 		return false;
 	}
-
-	cout << "solution" << endl;
-	printSolution(solution, mazeSize);
 	
 	return true;
 }
